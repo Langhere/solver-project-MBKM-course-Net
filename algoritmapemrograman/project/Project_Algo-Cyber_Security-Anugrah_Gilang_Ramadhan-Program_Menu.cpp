@@ -155,8 +155,10 @@ int main(int argc, char const *argv[])
             break;
         case 3:
             triangle();
+            break;
         case 4:
             grade();
+            break;
         }
     } while (choose != 5);
     puts("Thankyou!");
